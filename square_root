@@ -1,0 +1,15 @@
+public class square_root {
+
+   public static void main(String[] args) {
+      int a=25,sqr;
+      float sqt;
+      sqr= a*a;
+      sqt= a;
+      System.out.println("Square and squareroot");
+      do
+      {
+        sqt=(sqt+(a/sqt))/2;
+      }while((int)(sqt*sqt)>a);
+      System.out.println("a= "+a+"\nSquare of number.= "+sqr +"\nsqrt= "+sqt);
+   }
+}
